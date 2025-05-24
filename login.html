@@ -1,0 +1,258 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .top {
+            position: fixed;
+            top: 0px;
+           
+            height: 50px;
+            display: flex;
+            background-color: rgb(19, 212, 196);
+            justify-content: space-between;
+            left: 300px;
+        }
+        .top div {
+            border: 1px solid black;
+            width: 250px;
+            text-align: center;
+            font-size: 150%;
+            justify-content: center;
+            line-height: 50px;
+        }
+        img {
+            width: 200px;
+            height: 300px;
+            margin-left: 100px;
+        }
+        .box {
+            position: fixed;
+            width: 100px;
+            height: 150px;
+            right: 100px;
+            top: 250px;
+        }
+        .box ul {
+            list-style-type: none;
+            padding: 0px;
+        }
+        li {
+            margin-top: 30px;
+            border: 1px solid black;
+            padding: 20px;
+            text-align: center;
+            cursor: pointer;
+            
+        }
+        .content {
+            margin-top: 200px;
+        }
+        .contentItem {
+            display: flex;
+            flex-direction: column;
+            gap: 30px;
+        }
+        .infor {
+            display: flex;
+            gap: 20px;
+            flex-direction: row;
+        }
+        .title {
+            font-size: 100%;
+            font-weight: bold;
+        }
+        .color {
+            background-color: aqua;
+        }
+        .lis :nth-child(1){
+            background-color: aqua;
+        }
+        img{
+            
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+           
+            margin-right: 50px;
+        }
+        #login {
+            background-color: white;
+            display: flex;
+            flex-direction: row;
+           
+            border: 0px;
+        }
+        #login  p {
+            border: 0px;
+            margin: 0px;
+            font-size: small;
+            border: 1px solid black;
+            padding: 5px 10px;
+            border-radius: 20%;
+            line-height: 40px;
+        }
+        .alret{
+            display: flex;
+            flex-direction: column;
+            border: 2px solid rgb(224, 89, 89);
+            width: 200px;
+            position: fixed;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            z-index: 1000;
+            background-color: white;
+            padding: 100px;
+            border-radius:20% ;
+        }
+        #uLogin{
+            font-size: large;
+            margin-left: 50px;
+        }
+        input{
+            border: none; 
+            border-bottom: 2px solid #000; 
+            outline: none; 
+        }
+    </style>
+</head>
+<body>
+    <div></div>
+    <div class="top">
+        <div>悬疑</div>
+        <div>惊悚</div>
+        <div>喜剧</div>
+        <div>文学</div>
+        <div id="login">
+            <img src="./resource/1.jpg" alt="">
+            <p>登录</p>
+        </div>
+    </div>
+    <div class="box">
+        <ul class="lis">
+            <li>顶部</li>
+            <li>中部</li>
+            <li>底部</li>
+        </ul>
+    </div>
+    <div class="content">
+        <div class="contentItem">
+            <div class="infor">
+                <img src="./resource/1.jpg" alt="">
+                <div class="pText">
+                    <p class="title">哪吒之魔童闹海</p>
+                    <p class="smif">
+                    导演: 饺子<br>
+                    编剧: 饺子<br>
+                    主演: 吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 / 更多<br>
+                    类型: 剧情 / 喜剧 / 动画 / 奇幻<br>
+                    制片国家/地区: 中国大陆<br>
+                    语言: 汉语普通话<br>
+                    上映日期: 2025-01-29(中国大陆) <br>
+                    片长: 144分钟 <br>
+                    又名: 哪吒2 / 哪吒2之魔童闹海 / Ne Zha 2 <br>
+                    </p>
+                </div>
+            </div>
+            <div class="infor">
+                <img src="./resource/1.jpg" alt="">
+                <div class="pText">
+                    <p class="title">哪吒之魔童闹海</p>
+                    <p class="smif">
+                    导演: 饺子<br>
+                    编剧: 饺子<br>
+                    主演: 吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 / 更多...<br>
+                    类型: 剧情 / 喜剧 / 动画 / 奇幻<br>
+                    制片国家/地区: 中国大陆<br>
+                    语言: 汉语普通话<br>
+                    上映日期: 2025-01-29(中国大陆)<br>
+                    片长: 144分钟<br>
+                    又名: 哪吒2 / 哪吒2之魔童闹海 / Ne Zha 2<br>
+                    IMDb: tt34956443</p>
+                </div>
+            </div>
+            <div class="infor">
+                <img src="./resource/1.jpg" alt="">
+                <div class="pText">
+                    <p class="title">哪吒之魔童闹海</p>
+                    <p class="smif">
+                    导演: 饺子<br>
+                    编剧: 饺子<br>
+                    主演: 吕艳婷 / 囧森瑟夫 / 瀚墨 / 陈浩 / 绿绮 / 更多...<br>
+                    类型: 剧情 / 喜剧 / 动画 / 奇幻<br>
+                    制片国家/地区: 中国大陆<br>
+                    语言: 汉语普通话<br>
+                    上映日期: 2025-01-29(中国大陆)<br>
+                    片长: 144分钟<br>
+                    又名: 哪吒2 / 哪吒2之魔童闹海 / Ne Zha 2<br>
+                    IMDb: tt34956443</p>
+                </div>
+            </div>
+        </div>
+        <div class="alret">
+            <p id="uLogin">用户登录</p>
+            <form action="/hello" method="post" enctype="multipart/form-data">
+                <label for="userName">
+                    <div id="userName">
+                        
+                        <input type="file" placeholder="请选择文件" name="file" id="file">
+                    </div>
+                    </label>
+                    
+                    <input type="submit" value="登录">
+            </form>
+            
+
+
+        </div>
+    </div>
+    <script>
+        const topTitle = document.querySelectorAll('.top div');
+        const wwwName = ['book', 'movie', 'music', 'read'];
+        const inp = document.querySelectorAll('.lis li');
+        const login = document.querySelector('#login p')
+        login.addEventListener('click',function(){
+           
+            
+        })
+        
+        for (let i = 0; i < topTitle.length-1; i++) {
+            console.log("1");
+            topTitle[i].addEventListener('click', function() {
+                window.location.href = `https://${wwwName[i]}.douban.com/`;
+            });
+        }
+
+        window.addEventListener('scroll', function() {
+            const n = document.documentElement.scrollTop || document.body.scrollTop;
+           
+
+           
+            let index = Math.floor(n / 400);
+            index = Math.min(index, inp.length - 1); 
+            
+            console.log(inp);
+            inp.forEach(li => li.classList.remove('color'));
+            
+            
+            if (inp[index]) {
+                inp[index].classList.add('color');
+            }
+        });
+
+      
+        inp.forEach((li, i) => {
+            li.addEventListener('click', function(e) {
+                
+                window.scrollTo({
+                    top: 400 * i,
+                    behavior: 'smooth'
+                })
+            })
+        })
+    </script>
+</body>
+</html>
