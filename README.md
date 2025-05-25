@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # rml (login-web)
 
 none
@@ -38,3 +39,7 @@ quasar build
 
 ### Customize the configuration
 See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-config-js).
+=======
+# videoWeb
+My first personal project
+>>>>>>> 29b15c66ae8f8dd2fd352f815dcb3b424930ab3d
