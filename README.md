@@ -42,4 +42,5 @@ See [Configuring quasar.config.js](https://v2.quasar.dev/quasar-cli-vite/quasar-
 =======
 # videoWeb
 My first personal project
+仿b站的视频网站
 >>>>>>> 29b15c66ae8f8dd2fd352f815dcb3b424930ab3d
